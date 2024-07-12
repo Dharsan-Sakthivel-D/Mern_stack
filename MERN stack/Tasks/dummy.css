@@ -1,0 +1,48 @@
+@import url( 
+'https://fonts.googleapis.com/css2?family=Poppins&display=swap'); 
+
+.menubar { 
+	height: 7px; 
+	width: 50px; 
+	background-color: green; 
+	border-radius: 10px; 
+	margin: 7px; 
+	transition: 0.7s; 
+} 
+
+.box:hover>.menubar1 { 
+	transform: translate(0, 14px) rotate(40deg); 
+	background-color: red; 
+} 
+
+.box:hover>.menubar2 { 
+	opacity: 0; 
+} 
+
+.box:hover>.menubar3 { 
+	transform: translate(0, -14px) rotate(-40deg); 
+	background-color: red; 
+} 
+
+.box { 
+	height: 60px; 
+	width: 60px; 
+	border: 2px solid black; 
+	border-radius: 20px; 
+	padding-top: 5px; 
+	box-shadow: rgba(74, 62, 62, 0.45) 0px 7px 19px; 
+
+} 
+
+.box1 { 
+	display: flex; 
+	align-items: center; 
+	height: 100vh; 
+	justify-content: center; 
+	flex-direction: column; 
+	font-family: 'Poppins', sans-serif; 
+} 
+
+h1 { 
+	color: green; 
+}

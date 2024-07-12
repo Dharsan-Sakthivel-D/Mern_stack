@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+        }
+        .container{
+            display: grid;
+            grid-template-columns: repeat( 3,1fr);
+            grid-template-rows:50px 500px 320px 100px;
+            grid-template-areas: 
+            "n n n "
+            "sb m m "
+            "b  b2 b3"
+            "f  f  f";
+            gap: 5px;
+        }
+        h3{
+            float: right;
+            color: #edf6f9;
+            padding: 10px;
+        }
+        .box1{
+            background-color: #22223b;
+            grid-area: n;
+            
+        }
+        .box2{
+            background-color: #4a4e69;
+            grid-area: sb;
+        }
+        .box3,h1{
+            background-color: #9a8c98;
+            grid-area: m;
+            color: #edf6f9;
+        }
+        .box4{
+            background-color: #c9ada7;
+            grid-area: b;
+            
+        }
+        .box5{
+            background-color: #f2e9e4;
+            grid-area: b2;
+        }
+        .box6{
+            background-color: #edf6f9;
+            grid-area: b3;
+        }
+        .box7{
+            background-color:#0d3b66;
+            grid-area: f;
+        }
+        th{
+            border: 1px solid;
+            width: 100px;
+            height: 45px;
+            color: #22223b;
+        }
+        a{
+            text-decoration: none;
+            color: white;
+         }
+         th:hover{
+            background-color: #0d3b66;
+         }
+         li{
+            padding: 20px;
+            color: #edf6f9;
+         }
+         iframe{
+            margin-left: 200px;
+         }
+        .ques{
+            width: 450px;
+            height: 260px;
+            border: 1px solid white;
+            background-color: azure;
+            margin-top:14px;
+            margin-left: 13px;
+        }
+         
+
+    </style>
+</head>
+<body>
+    <div class="container">
+    <div class="box1">
+        <h3> PYTHONKEYPOINT</h3>
+            <table>
+            <th><a href="">HOME</a></th>
+            <th><a href="">ABOUT</a></th>
+            <th><a href="">FAQ</a></th>
+            <th><a href="">CONTACT</a></th>
+            <th><a href="">LOGIN</a></th>
+        </table>
+    </div>
+    <div class="box2">
+        <ul>
+        <li><a href="">Data Structures</a></li>
+        <li><a href="">variables and datatype</a></li>
+        <li><a href="">Operators</a></li>
+        <li><a href="">Class and Objecct</a></li>
+        <li><a href="">functions</a></li>
+        </ul>
+    </div>
+    <div class="box3">
+        <h1 style="padding: 20px;">
+            DATA STRUCTURES IN PYTHON
+        </h1>
+        <iframe width="560" height="315"  src="https://www.youtube.com/embed/pkYVOmU3MgA?si=4h2FyeoPa5IhR-34" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <h4 style="margin-left: 4px;">Short note:</h4>
+        <p style="font-size: large; color:white; padding: 5px;">Data structures are methods of organizing data to facilitate efficient storage, retrieval, and manipulation. 
+            Data structures exist in both the digital and physical worlds. 
+            A dictionary is a physical example of a data structure where the 
+            data comprises word definitions organized in alphabetical order within a book.</p>
+    </div>
+    <div class="box4">
+        <div class="ques">
+
+        </div>
+    </div>
+    <div class="box5">
+        <div class="ques">
+            <input type="text" placeholder="Code here" width="450px" height="250px" > 
+        </div>
+
+    </div>
+    <div class="box6">
+        <div class="ques"></div>
+    </div>
+    <div class="box7">
+         <center style="padding: 20px;color: #edf6f9;"><h2>CONTACT US</h2>
+        <P>www.pythonkeypoint.com || pythonkeypoint@gmail.com</P></center>
+    </div>
+</div>
+</body>
+</html>
